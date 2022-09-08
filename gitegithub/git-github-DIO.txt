@@ -1,4 +1,4 @@
-# Comandos no Terminal
+git# Comandos no Terminal
 
  - LS: lista de diretórios pertencentes à pasta indicada.
  - CD: Change Directory - indica a pasta que deseja ir. (Ex: cd documentos).
@@ -32,7 +32,7 @@
  Ao criar um novo arquivo, adicione um README.md contendo todas as informações necessárias e relevantes a respeito do arquivo em questão, como observações, informações relevantes, links 
 
 
- - configurações git:
+ - configurações git:  
 git config --global user.email ou user.name: configura informações (email e nick) do autor do commit
 git config --list: listagem de todas as confgurações do seu git
 git config --global --unset propriedade especifica da configuração a ser excluida (ex: user.email)
