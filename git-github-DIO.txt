@@ -1,0 +1,38 @@
+# Comandos no Terminal
+
+ - LS: lista de diretórios pertencentes à pasta indicada.
+ - CD: Change Directory - indica a pasta que deseja ir. (Ex: cd documentos).
+ - .. : subir uma pasta.
+ - Clear OU ctrl+l: limpa o terminal.
+ - tecla tab: completa o preenchimento automaticamente.
+ - mkdir: cria uma pasta.
+ - echo: printa no terminal o que foi digitado. Se utilizado > (sinal de maior) após o que foi digitado, ele direciona para um arquivo (caso não exista, o terminal cria sozinho).
+ - del: colocando o nome do arquivo depois do comando, será solicitada a confirmação (s/n) e deletará o mesmo.
+ - mv: move um arquivo para outro local. (Ex: mv nomedoarquivo.formato ./ nomedolocal/)
+
+# Github
+ - iniciando o git:
+	git init (ao utilizar o comando, é inicializado um repositório .git (trata-se de uma pasta oculta, representada sua condição pelo ponto antes do nome) dentro da pasta em questão, sendo uma pasta gerencial.
+	*para o console apontas as pastas ocultas, utiliza-se a flag "-a" para que estas sejam  listadas junto com as outras pastas da listagem.
+
+ - comitando:
+	git add * (move um arquivo untracked direto para a área staged. Em caso de modificação do arquivo, utilizando o * ele irá adicionar todas as modificações realizadas no arquivo) 
+	git commit -m "incluir mensagem para referenciar o commit e identificar o que representa cada commit dentre as alterações"
+
+ - verificando o status:
+	git status (informa em qual estado sua commit se encontra)
+
+ - apontamento do repositório local para o remoto:
+	git remote add origin linkdogthub: para empurrar o repositório para o github, primeiro informar o link htttp gerado no highub.
+	git remote -v: listagem dos repositórios remotos que tem cadastrado.
+	git push origin master: empurra o repositório após uma solicitação de autenticação.
+	git pull origin master: para puxar um arquivo/repositório.
+
+  - importante:
+ Ao criar um novo arquivo, adicione um README.md contendo todas as informações necessárias e relevantes a respeito do arquivo em questão, como observações, informações relevantes, links 
+
+
+ - configurações git:
+git config --global user.email ou user.name: configura informações (email e nick) do autor do commit
+git config --list: listagem de todas as confgurações do seu git
+git config --global --unset propriedade especifica da configuração a ser excluida (ex: user.email)
